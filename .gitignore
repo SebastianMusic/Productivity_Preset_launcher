@@ -1,3 +1,5 @@
 Personal_presets/
 *.DS_Store
 Demo Script.py
+.venv/
+app.log

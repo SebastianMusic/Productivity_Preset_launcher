@@ -11,4 +11,4 @@ def get_bundle_id(app_name):
 
 
 # put the application name you want to find the bundle id for in the quotes
-print(get_bundle_id("Spotify"))
+print(get_bundle_id("Python"))
