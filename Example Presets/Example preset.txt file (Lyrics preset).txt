@@ -1,0 +1,14 @@
+task_related_apps: "com.microsoft.Word, com.ableton.live"
+websites: "https://calendar.google.com/calendar/u/0/r/week, https://keep.google.com/u/0/#home"
+cold_turkey_block_name: "TEKST PROTOKOLL"
+
+#############
+Example of how to make a preset file above
+This is an example of a preset i use when writing lyrics
+
+keep your task related files in a task_related_apps variable, use the semicolon (:) to seperate key and value
+use the bundle_id of apps when adding to task_related_apps
+only use quotation marks ("") at the beginning and end
+you can use this apple script to find bundle_ids
+
+tell application "System Events" to get bundle identifier of (first application process whose name is "Name of application")
